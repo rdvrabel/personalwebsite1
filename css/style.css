@@ -1,0 +1,39 @@
+.parent {
+	width: 1200px;
+	height: 900px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.hero {
+	background-image: url(../img/Beach2.jpg);
+	background-size: cover;
+	width: 900px;
+	height: 900px;
+	order: 1;
+}
+.title {
+	color: #240100;
+	text-align: center;
+	text-shadow: 2px 2px #D9BDAA;
+	font-family: helvitica;
+	font-size: 250%;
+	position: absolute;
+	left: 250px;
+	top: 100px
+}
+.subtitle {
+	color: #240100: text-align: center;
+	font-family: helvitica;
+	font-size: 200%;
+	font-style: oblique;
+	position: absolute;
+	left: 375px;
+	top: 200px;
+}
+.menuBar {
+	background-color: #F4F4F2;
+	width: 200px;
+	height: 900px;
+	order: 2;
+}
+.menuItems {font-family: helvitica}
