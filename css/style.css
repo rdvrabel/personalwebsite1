@@ -1,39 +1,157 @@
 .parent {
 	width: 1200px;
 	height: 900px;
+	background-image: url("../img/green2.jpg");
 	display: flex;
 	flex-wrap: wrap;
 }
 .hero {
-	background-image: url(../img/Beach2.jpg);
-	background-size: cover;
-	width: 900px;
-	height: 900px;
+	width: 1000px;
+	height: 800px;
+	display: flex;
+	flex-wrap: wrap;
 	order: 1;
 }
 .title {
-	color: #240100;
+	color: black;
+	background-color: rgba(207, 214, 188, 0.7);
 	text-align: center;
 	text-shadow: 2px 2px #D9BDAA;
-	font-family: helvitica;
-	font-size: 250%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 260%;
 	position: absolute;
-	left: 250px;
-	top: 100px
+	left: 270px;
+	top: 20px
 }
 .subtitle {
-	color: #240100: text-align: center;
-	font-family: helvitica;
+	color: #240100;
+	background-color: rgba(207, 214, 188, 0.7);
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 200%;
 	font-style: oblique;
 	position: absolute;
-	left: 375px;
-	top: 200px;
+	left: 288px;
+	top: 70px;
+}
+.hiking {
+	background-image: url("../img/hiking.jpg");
+	background-size: 250px 400px;
+	width: 250px;
+	height: 400px;
+}
+.stonewall {
+	background-image: url("../img/stonewall.jpg");
+	background-size: 250px 400px;
+	width: 250px;
+	height: 400px;
+}
+.walking {
+	background-image: url("../img/walking.jpg");
+	background-size: 250px 400px;
+	width: 250px;
+	height: 400px;
+}
+.beach {
+	background-image: url("../img/Beach3.jpg");
+	background-size: 250px 400px;
+	width: 250px;
+	height: 400px;
+}
+.intro {
+	text-indent: 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 35px;
+	width: 1000px;
+	height: 400px;
+	background-color: rgba(218, 216, 197, 0.8);
+	padding: 15px 50px 25px;
+    order: 3
+}
+.cover {
+	color: #240100;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
 }
 .menuBar {
-	background-color: #F4F4F2;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 25px;
 	width: 200px;
-	height: 900px;
+	height: 600px;
 	order: 2;
 }
-.menuItems {font-family: helvitica}
+
+ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    text-align: center;
+    width: 200px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    background-color: rgba(214, 216, 178, 0);
+    font-weight: bold;
+    border-bottom-color: #D9BDAA;
+    border-bottom-style: double;}
+  
+
+li a {
+    display: block;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    height: 40px;
+    padding: 35px 16px;
+    text-decoration: none;
+    
+}
+
+.about {
+	width: 1000px;
+	height: 800px;
+	display: flex;
+	flex-wrap: wrap;
+	order: 1;
+}
+
+.tick {
+    background-image: url("../img/tick2.jpg"); 
+    background-size: 300px 250px;
+    width: 300px;
+	height: 250px;
+}
+
+.tickSign { 
+    background-image: url("../img/tickalert.jpg"); 
+    background-size: 400px 300px;
+    width: 400px;
+	height: 250px;
+}
+
+.blackTick {
+    background-image: url("../img/Tick1.jpg"); 
+    background-size: 300px 250px;
+    width: 300px;
+	height: 250px;
+}
+
+.sections{
+    text-indent: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	width: 1000px;
+	height: 550px;
+	background-color: rgba(218, 216, 197, 0.8);
+	padding: 10px 10px 10px;
+}
+
+.graphs {
+    color: #240100;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
